@@ -7,5 +7,6 @@ public class ApplicationShould {
         Application app = new Application();
         boolean isWorking = app.isWorking();
         Assertions.assertThat(isWorking).isTrue();
+        
     }
 }
